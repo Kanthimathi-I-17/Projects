@@ -1,0 +1,22 @@
+.container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    border: 20px solid black;
+    cursor: pointer;
+    box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+    transition: all .3s ease-in-out;
+}
+  
+  .card:hover {
+    box-shadow: -3px 18px 20px 0px rgba(99,89,99,1);
+}
+
+img{
+    border-radius: 10px;
+}
